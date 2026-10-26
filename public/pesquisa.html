@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pesquisar - SoulDiary</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main>
+    <h1>Pesquisar</h1>
+
+    <form class="barra-pesquisa" id="form-pesquisa">
+      <input type="text" id="campo-busca" placeholder="Buscar por titulo ou autor/diretor..." />
+      <button type="submit" class="btn btn-primario">Pesquisar</button>
+    </form>
+
+    <div class="filtros-tipo" id="filtros-tipo">
+      <button class="chip-filtro ativo" data-tipo="">Todos</button>
+      <button class="chip-filtro" data-tipo="filme">Filmes</button>
+      <button class="chip-filtro" data-tipo="serie">Series</button>
+      <button class="chip-filtro" data-tipo="livro">Livros</button>
+      <button class="chip-filtro" data-tipo="musica">Musicas</button>
+    </div>
+
+    <div id="resultados">
+      <div class="carregando">Digite algo ou escolha um filtro para pesquisar...</div>
+    </div>
+  </main>
+
+  <footer class="rodape">SoulDiary &middot; seu diario de historias</footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/pesquisa.js"></script>
+</body>
+</html>

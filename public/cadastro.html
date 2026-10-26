@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Criar conta - SoulDiary</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main>
+    <div class="auth-wrapper">
+      <h1>Criar conta</h1>
+      <p class="auth-subtitulo">Comece a registrar tudo que voce assiste, le e ouve.</p>
+
+      <div class="mensagem" id="mensagem"></div>
+
+      <form id="form-cadastro" novalidate>
+        <div class="campo">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+        </div>
+        <div class="campo">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="voce@email.com" required />
+        </div>
+        <div class="campo">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" name="senha" placeholder="Minimo de 6 caracteres" required />
+        </div>
+        <div class="campo">
+          <label for="confirmarSenha">Confirmar senha</label>
+          <input type="password" id="confirmarSenha" name="confirmarSenha" placeholder="Repita a senha" required />
+        </div>
+        <button type="submit" class="btn btn-primario btn-bloco" id="btn-cadastrar">Criar conta</button>
+      </form>
+
+      <p class="auth-rodape">
+        Ja tem conta? <a href="login.html">Entrar</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="rodape">SoulDiary &middot; seu diario de historias</footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>

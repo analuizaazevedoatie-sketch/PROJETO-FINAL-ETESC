@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450">
+  <rect width="300" height="450" fill="#C7B7A3"/>
+  <rect x="0" y="0" width="300" height="60" fill="#561C24"/>
+  <rect x="0" y="390" width="300" height="60" fill="#561C24"/>
+  <circle cx="150" cy="225" r="55" fill="#6D2932"/>
+  <polygon points="135,200 135,250 175,225" fill="#E8D8C4"/>
+  <text x="150" y="330" font-family="Arial, sans-serif" font-size="20" fill="#561C24" text-anchor="middle">FILME</text>
+</svg>

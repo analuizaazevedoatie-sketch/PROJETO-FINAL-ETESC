@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450">
+  <rect width="300" height="450" fill="#C7B7A3"/>
+  <rect x="60" y="150" width="180" height="120" rx="10" fill="#6D2932"/>
+  <rect x="80" y="170" width="60" height="35" fill="#E8D8C4"/>
+  <rect x="150" y="170" width="60" height="35" fill="#E8D8C4"/>
+  <rect x="80" y="215" width="60" height="35" fill="#E8D8C4"/>
+  <rect x="150" y="215" width="60" height="35" fill="#E8D8C4"/>
+  <text x="150" y="330" font-family="Arial, sans-serif" font-size="20" fill="#561C24" text-anchor="middle">SERIE</text>
+</svg>

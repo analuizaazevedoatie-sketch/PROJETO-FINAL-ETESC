@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450">
+  <rect width="300" height="450" fill="#C7B7A3"/>
+  <circle cx="150" cy="225" r="70" fill="#561C24"/>
+  <circle cx="150" cy="225" r="22" fill="#E8D8C4"/>
+  <circle cx="150" cy="225" r="7" fill="#6D2932"/>
+  <text x="150" y="330" font-family="Arial, sans-serif" font-size="20" fill="#561C24" text-anchor="middle">MUSICA</text>
+</svg>

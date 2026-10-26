@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoulDiary - Seu diario de historias</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main>
+    <section class="hero">
+      <h1>SoulDiary</h1>
+      <p>Guarde tudo que voce assiste, le e ouve em um so lugar. Filmes, series, livros e musicas em um diario so seu.</p>
+      <form class="hero-busca" id="form-busca-home">
+        <input type="text" id="busca-home" placeholder="Pesquisar filmes, series, livros, musicas..." />
+        <button type="submit" class="btn btn-primario">Pesquisar</button>
+      </form>
+      <div class="hero-atalhos">
+        <a href="biblioteca.html" class="btn btn-secundario">Minha Biblioteca</a>
+        <a href="perfil.html" class="btn btn-secundario">Meu Perfil</a>
+      </div>
+    </section>
+
+    <div id="conteudo-home">
+      <div class="carregando">Carregando destaques...</div>
+    </div>
+  </main>
+
+  <footer class="rodape">SoulDiary &middot; seu diario de historias</footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

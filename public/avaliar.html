@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avaliar Obra - SoulDiary</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main>
+    <h1>Avaliar Obra</h1>
+
+    <div id="resumo-obra"></div>
+
+    <div class="mensagem" id="mensagem"></div>
+
+    <form id="form-avaliar" style="max-width: 480px;">
+      <div class="campo">
+        <label>Nota</label>
+        <div class="selecao-notas" id="selecao-notas">
+          <span class="nota-estrela" data-nota="1">&#9733;</span>
+          <span class="nota-estrela" data-nota="2">&#9733;</span>
+          <span class="nota-estrela" data-nota="3">&#9733;</span>
+          <span class="nota-estrela" data-nota="4">&#9733;</span>
+          <span class="nota-estrela" data-nota="5">&#9733;</span>
+        </div>
+        <input type="hidden" id="nota" value="0" />
+      </div>
+      <div class="campo">
+        <label for="comentario">Comentario</label>
+        <textarea id="comentario" placeholder="O que voce achou dessa obra?"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primario" id="btn-salvar-avaliacao">Salvar avaliacao</button>
+    </form>
+  </main>
+
+  <footer class="rodape">SoulDiary &middot; seu diario de historias</footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/avaliar.js"></script>
+</body>
+</html>
